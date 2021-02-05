@@ -21,8 +21,8 @@ h2 {
 .paragraph {
     font-family: "Piazzolla Regular";
     font-size: 50px; 
-    color: red;
-    transform: rotate(10deg);
+    color:aqua;
+    transform: rotate(90deg);
 }
 
 .blue {
