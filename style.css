@@ -3,6 +3,48 @@
     src: url("./assets/Piazzolla-Regular.woff2") format("woff2");
 
 }
+
+@font-face {
+    font-family: "Piazzolla Bold";
+    src: url("./assets/Piazzolla-Bold.woff2") format("woff2");
+
+}
+
 h1 {
     font-family: "Piazzolla Regular";
 }
+
+h2 {
+    font-family: "Piazzolla Bold";
+}
+
+.paragraph {
+    font-family: "Piazzolla Regular";
+    font-size: 50px; 
+    color: red;
+    transform: rotate(10deg);
+}
+
+.blue {
+    color: blue;
+    text-decoration: underline;
+    font-size: 80px;
+    text-shadow: 4px 4px yellow;
+}
+.invisible:hover {
+opacity: 0;
+
+}
+
+.zoom:hover {
+    font-size: 100px;
+    text-decoration-line: underline;
+  text-decoration-style: dashed;
+    color: green;
+    }
+
+    .expand {
+        color: transparent;
+        text-shadow: 0 0 5px rgba(0,0,0,0.5);
+        font-size: 200px;
+    }
