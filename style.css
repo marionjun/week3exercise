@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Piazzolla Regular";
+    src: url("./assets/Piazzolla-Regular.woff2") format("woff2");
+
+}
+h1 {
+    font-family: "Piazzolla Regular";
+}
